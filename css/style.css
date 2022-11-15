@@ -6,13 +6,28 @@
 }
 
 /* Generali */
+body {
+      font-family: 'Whitney', sans-serif;
+      font-family: 'Whitney Semibold', sans-serif;
+      font-family: 'Whitney Book', sans-serif;
+      font-family: 'Whitney Light', sans-serif;
+}
+
 .container {
-      width: 900px;
+      max-width: 900px;
       margin: 0 auto;
 }
 
 .container-flex {
       display: flex;
+}
+
+.white {
+      color: white;
+}
+
+.black {
+      color: #23272a;
 }
 
 /* Header */
@@ -21,6 +36,19 @@ ul {
       display: flex;
       justify-content: center;
 }
+
+.jumbotron {
+      background-image: url('/img/jumbo.png');
+      background-size: cover;
+}
+
+.header-description {
+      width: 45%;
+      min-height: 50%;
+      text-align: center;
+}
+
+
 
 /* Main*/
 
@@ -37,9 +65,8 @@ ul {
 /* debug */
 /* debug header  */
 .debug header nav {
-      min-height: 80px;
       background-color: #add8e6;
-      align-items: center;
+      padding: 15px;
 }
 
 .debug header nav .logo,
@@ -78,8 +105,8 @@ ul {
 }
 
 .debug header .jumbotron .pink-box {
-      width: 50%;
-      height: 400px;
+      /* width: 50%; */
+      /* height: 400px; */
       background-color: #ee82ee;
       border: 2px dashed black;
 }
