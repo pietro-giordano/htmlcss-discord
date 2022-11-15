@@ -114,42 +114,44 @@ ul li {
       margin: 0 8px;
 }
 
-
-
-
 /* Main*/
+.sub-section {
+      padding: 50px 0;
+}
 
+section:nth-child(even) {
+      background-color: #d3d3d3;
+}
 
+.image-section img {
+      max-width: 678px;
+      max-height: 440px;
+}
 
+.description-1 {
+      padding-left: 70px;
+}
+
+.description-2 {
+      padding-right: 70px;
+}
+
+.description-section h2 {
+      font-size: 42px;
+      padding: 25px 0;
+}
+
+.description-section p {
+      line-height: 1.4em;
+      font-size: 18px;
+}
 
 
 
 
 
 /* debug main  */
-.debug main section .sub-section {
-      min-height: 500px;
-      justify-content: center;
-      align-items: center;
-}
 
-.debug main section .sub-section .image-section {
-      height: 400px;
-      width: 60%;
-      background-color: #1e90ff;
-      border: 2px dashed black;
-}
-
-.debug main section .sub-section article {
-      height: 400px;
-      width: 40%;
-      background-color: #ffc0cb;
-      border: 2px dashed black;
-}
-
-.debug main section:nth-child(even) {
-      background-color: #d3d3d3;
-}
 
 .debug main section .sub-section .main-footer {
       height: 700px;
