@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
 }
 
@@ -32,24 +32,61 @@ body {
 
 button {
       border-radius: 28px;
-      padding: 10px 30px;
       border: none;
       font-family: 'Whitney', sans-serif;
+}
+
+.big-button {
+      padding: 10px 30px;
       font-size: 18px;
 }
 
+.little-button {
+      padding: 6px 12px;
+}
+
 /* Header */
+header nav {
+      background-color: #3161e0;
+      padding: 15px;
+}
+
+.logo, .login, .links {
+      align-items: center;
+      flex-grow: 0;
+      padding: 5px;
+}
+
+.logo, .login {
+      width: 20%;
+}
+
+.login {
+      justify-content: flex-end;
+}
+
+.links {
+      width: 60%;
+      justify-content: center;
+}
+
 ul {
       list-style: none;
       display: flex;
       justify-content: center;
 }
 
+ul li {
+      padding: 15px;
+}
+
 .jumbotron {
       background-image: url('/img/jumbo.png');
       background-size: cover;
+      background-position: center;
       justify-content: center;
       align-items: center;
+      min-height: 450px;
 }
 
 .header-description {
@@ -59,7 +96,7 @@ ul {
 }
 
 .header-description > h1 {
-      font-size: 40px;
+      font-size: 50px;
       font-family: 'Whitney Semibold', sans-serif;
       padding: 20px;
 }
@@ -88,57 +125,6 @@ ul {
 
 
 
-
-
-
-
-/* debug */
-/* debug header  */
-.debug header nav {
-      background-color: #add8e6;
-      padding: 15px;
-}
-
-.debug header nav .logo,
-.debug header nav .login,
-.debug header nav .links {     
-      background-color: #daa520;
-      border: 2px dashed black;
-      align-items: center;
-      flex-grow: 0;
-      padding: 5px;
-}
-
-.debug header nav .logo {
-      width: 20%;
-}
-
-.debug header nav .login {
-      width: 20%;
-      justify-content: flex-end;
-}
-
-.debug header nav .links {
-      width: 60%;
-      justify-content: center;
-}
-
-.debug header nav .links ul li {
-      padding: 5px;
-}
-
-.debug header .jumbotron {
-      height: 500px;
-      background-color: #00008b;
-      
-}
-
-.debug header .jumbotron .pink-box {
-      /* width: 50%; */
-      /* height: 400px; */
-      /* background-color: #ee82ee;
-      border: 2px dashed black; */
-}
 
 /* debug main  */
 .debug main section .sub-section {
