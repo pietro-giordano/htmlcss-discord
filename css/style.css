@@ -8,9 +8,9 @@
 /* Generali */
 body {
       font-family: 'Whitney', sans-serif;
-      font-family: 'Whitney Semibold', sans-serif;
+      /* font-family: 'Whitney Semibold', sans-serif;
       font-family: 'Whitney Book', sans-serif;
-      font-family: 'Whitney Light', sans-serif;
+      font-family: 'Whitney Light', sans-serif; */
 }
 
 .container {
@@ -30,6 +30,14 @@ body {
       color: #23272a;
 }
 
+button {
+      border-radius: 28px;
+      padding: 10px 30px;
+      border: none;
+      font-family: 'Whitney', sans-serif;
+      font-size: 18px;
+}
+
 /* Header */
 ul {
       list-style: none;
@@ -40,6 +48,8 @@ ul {
 .jumbotron {
       background-image: url('/img/jumbo.png');
       background-size: cover;
+      justify-content: center;
+      align-items: center;
 }
 
 .header-description {
@@ -47,6 +57,26 @@ ul {
       min-height: 50%;
       text-align: center;
 }
+
+.header-description > h1 {
+      font-size: 40px;
+      font-family: 'Whitney Semibold', sans-serif;
+      padding: 20px;
+}
+
+.header-description > p {
+      line-height: 1.4em;
+      font-size: 18px;
+}
+
+.header-buttons {
+      padding: 18px;
+}
+
+.header-buttons > button {
+      margin: 0 8px;
+}
+
 
 
 
@@ -100,15 +130,14 @@ ul {
 .debug header .jumbotron {
       height: 500px;
       background-color: #00008b;
-      justify-content: center;
-      align-items: center;
+      
 }
 
 .debug header .jumbotron .pink-box {
       /* width: 50%; */
       /* height: 400px; */
-      background-color: #ee82ee;
-      border: 2px dashed black;
+      /* background-color: #ee82ee;
+      border: 2px dashed black; */
 }
 
 /* debug main  */
