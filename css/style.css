@@ -45,6 +45,11 @@ button {
       padding: 6px 12px;
 }
 
+.mac-button::before {
+      content: "🠗";
+      padding-right: 8px;
+}
+
 /* Header */
 header nav {
       background-color: #3161e0;
@@ -68,6 +73,10 @@ header nav {
 .links {
       width: 60%;
       justify-content: center;
+}
+
+.login-button {
+      background-color: white;
 }
 
 ul {
@@ -114,6 +123,14 @@ ul li {
       margin: 0 8px;
 }
 
+.header-buttons > .mac-button {
+      background-color: white;
+}
+
+.browser-button {
+      background-color: #23272a;
+}
+
 /* Main*/
 .sub-section {
       padding: 50px 0;
@@ -136,6 +153,11 @@ section:nth-child(even) {
       padding-right: 70px;
 }
 
+.description-3 {
+      padding: 0 70px 0;
+      text-align: center;
+}
+
 .description-section h2 {
       font-size: 42px;
       padding: 25px 0;
@@ -146,8 +168,25 @@ section:nth-child(even) {
       font-size: 18px;
 }
 
+.main-footer {
+      flex-direction: column;
+      align-items: center;
+}
 
+.ready {
+      background-image: url('/img/stars.svg');
+      background-size: contain;
+}
 
+.ready h4 {
+      font-size: 28px;
+      padding: 20px 30px 0;
+}
+
+.main-footer-button {
+      margin: 30px 0;
+      background-color: #8ea1e1;
+}
 
 
 /* debug main  */
