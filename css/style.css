@@ -82,8 +82,10 @@ header nav {
       justify-content: center;
 }
 
-.links > ul li {
+.links > ul li a {
       padding: 15px;
+      color: white;
+      text-decoration: none; 
 }
 
 .jumbotron {
@@ -250,6 +252,11 @@ footer {
 
 .nav-footer > ul li {
       padding: 5px;
+}
+
+.nav-footer > ul li a {
+      color: white;
+      text-decoration: none;
 }
 
 .footer-bar {
